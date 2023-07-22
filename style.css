@@ -1,0 +1,146 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/****************************************/
+/*
+*{
+	outline: 1px solid blue;
+}
+*/
+
+body{
+    background: #fff;
+    font-family: Castoro;
+}
+
+/**title**/
+.title{
+	max-width: 1296px;
+	margin: 0 auto;
+}
+h1, h2{
+    color: #000000;
+    font-size: 128px;
+    line-height: 192px;
+    font-weight: 400;
+}
+h2{
+	text-align: right;
+}
+.title img{
+	display: block; /*讓元素以區塊方式呈現*/
+	margin: auto; /*讓圖片水平置中*/
+}
+
+/**introduction**/
+.introduction-bg{
+	background: #EFEFEF;
+}
+.introduction{
+	max-width: 1296px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: end;
+	padding: 48px 0;
+}
+.introduction p{
+	color: #000000;
+	font-size: 32px;
+    line-height: 48px;
+    font-weight: 400;
+	max-width: 636px;
+}
+
+/**experience**/
+.experience{
+	max-width: 1296px;
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-bottom: 160px;
+}
+.experience li{
+	margin-bottom: 40px;
+	max-width: 636px;
+}
+.experience li h3{
+	color: #AE0000;
+	font-size: 40px;
+    line-height: 60px;
+    font-weight: 400;
+	border-bottom: 3px solid #AE0000;
+	margin-bottom: 16px;
+}
+.experience li p{
+	color: #000000;
+	font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+}
+.experience li span{
+	color: #949494;
+	font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+/**footer**/
+.footer-bg{
+	background: #000000;
+}
+.footer{
+	max-width: 1296px;
+	margin: 0 auto;
+	padding: 64px 0;
+	display: flex;
+	justify-content: center;
+}
+.footer img{
+	margin-left: 20px;
+	margin-right: 20px;
+}
