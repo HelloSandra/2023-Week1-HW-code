@@ -58,12 +58,12 @@ body{
     background: #fff;
     font-family: Castoro;
 }
-
-/**title**/
-.title{
+.container{
 	max-width: 1296px;
 	margin: 0 auto;
 }
+
+/**title**/
 h1, h2{
     color: #000000;
     font-size: 128px;
@@ -83,8 +83,6 @@ h2{
 	background: #EFEFEF;
 }
 .introduction{
-	max-width: 1296px;
-	margin: 0 auto;
 	display: flex;
 	justify-content: end;
 	padding: 48px 0;
@@ -99,8 +97,6 @@ h2{
 
 /**experience**/
 .experience{
-	max-width: 1296px;
-	margin: 0 auto;
 	margin-top: 80px;
 	margin-bottom: 160px;
 }
@@ -134,8 +130,6 @@ h2{
 	background: #000000;
 }
 .footer{
-	max-width: 1296px;
-	margin: 0 auto;
 	padding: 64px 0;
 	display: flex;
 	justify-content: center;
